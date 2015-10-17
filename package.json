@@ -10,7 +10,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "istanbul": "^0.3.5",
+    "istanbul": "^0.4.0",
     "testit": "^2.0.2"
   },
   "scripts": {
