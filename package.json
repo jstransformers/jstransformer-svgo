@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-svgo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "SVGO support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -9,23 +9,28 @@
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "promise": "^7.0.4",
+    "svgo": "^0.5.6"
+  },
   "devDependencies": {
-    "istanbul": "^0.3.5",
-    "testit": "^2.0.2"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-svgo.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "merge": "^1.2.0",
-    "promise": "^7.0.1",
-    "svgo": "^0.5.1"
-  }
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }
