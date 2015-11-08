@@ -12,7 +12,7 @@
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "promise": "^7.0.4",
-    "svgo": "^0.5.6"
+    "svgo": "^0.6.0"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
