@@ -5,6 +5,7 @@ var Promise = require('promise');
 var extend = require('extend-shallow');
 
 exports.name = 'svgo';
+exports.inputFormat = ['svg', 'svgo'];
 exports.outputFormat = 'svg';
 
 exports.renderAsync = function (str, options, locals) {
