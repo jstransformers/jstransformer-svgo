@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-svgo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "SVGO support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -12,7 +12,7 @@
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "promise": "^7.0.4",
-    "svgo": "^0.6.0"
+    "svgo": "^0.7.0"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"

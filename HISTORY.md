@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.0: 2016-08-25
+
+- Removed Node 0.10 support
+- Upgrade to svgo@^0.7.0
+
 ## v0.1.0: 2015-11-04
 
 - Update Boilerplate
