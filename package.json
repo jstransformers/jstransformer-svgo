@@ -4,7 +4,8 @@
   "description": "SVGO support for JSTransformers.",
   "keywords": [
     "jstransformer",
-    "svgo"
+    "svgo",
+    "svgo-sync"
   ],
   "files": [
     "index.js"
@@ -12,7 +13,8 @@
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "promise": "^7.0.4",
-    "svgo": "^0.7.0"
+    "svgo": "^0.7.0",
+    "svgo-sync": "^0.5.1"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
