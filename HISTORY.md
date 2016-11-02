@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.0: 2016-11-02
+
+- Added async support
+  - By [GU5TAF](https://github.com/GU5TAF)
+
 ## v0.2.0: 2016-08-25
 
 - Removed Node 0.10 support
