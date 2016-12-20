@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.4.0: 2016-12-20
+
+- Updated Boilerplate
+
 ## v0.3.0: 2016-11-02
 
 - Added async support
