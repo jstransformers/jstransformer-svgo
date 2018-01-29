@@ -1,5 +1,7 @@
 # jstransformer-svgo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-svgo.svg)](https://greenkeeper.io/)
+
 [SVGO](https://github.com/svg/svgo) support for [JSTransformers](https://github.com/jstransformers/jstransformer).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-svgo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-svgo)
