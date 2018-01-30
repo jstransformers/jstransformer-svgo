@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "svgo": "^0.7.0",
+    "svgo": "^1.0.4",
     "svgo-sync": "^0.5.1"
   },
   "name": "jstransformer-svgo",
