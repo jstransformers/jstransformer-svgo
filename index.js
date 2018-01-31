@@ -16,13 +16,6 @@ exports.render = function (str, options, locals) {
 }
 
 exports.renderAsync = function (str, options, locals) {
-  return new Promise((resolve, reject) => {
-    const svgo = new Svgo(extend({}, options, locals))
-    svgo.optimize(str, result => {
-      if (result.data) {
-        return resolve(result.data)
-      }
-      reject(result)
-    })
-  })
+  const svgo = new Svgo(extend({}, options, locals))
+  return svgo.optimize(str).then(result => result.data)
 }
