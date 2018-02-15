@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "extend-shallow": "^2.0.1",
+    "extend-shallow": "^3.0.2",
     "svgo": "^1.0.4",
     "svgo-sync": "^0.5.1"
   },
