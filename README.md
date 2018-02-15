@@ -17,7 +17,7 @@
 ## API
 
 ```js
-var svgo = require('jstransformer')(require('jstransformer-svgo'));
+var svgo = require('jstransformer')(require('jstransformer-svgo'))
 
 svgo.renderFile('hello.svg').body
 //=> Optimized hello.svg file
