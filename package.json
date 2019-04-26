@@ -1,28 +1,27 @@
 {
-  "dependencies": {
-    "extend-shallow": "^3.0.2",
-    "svgo": "^1.0.4",
-    "svgo-sync": "^0.5.1"
-  },
   "name": "jstransformer-svgo",
   "version": "1.0.0",
   "description": "SVGO support for JSTransformers.",
   "keywords": [
     "jstransformer",
-    "svgo",
-    "svgo-sync"
+    "svgo"
   ],
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "deasync": "^0.1.14",
+    "extend-shallow": "^3.0.2",
+    "svgo": "^1.2.2"
+  },
   "devDependencies": {
-    "test-jstransformer": "^1.0.0",
-    "xo": "*"
+    "test-jstransformer": "^1.0.3",
+    "xo": "^0.24.0"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
-    "posttest": "xo --space=2 --no-semicolon index.js"
+    "posttest": "xo --node-version=\">=4\" --space=2 --prettier index.js"
   },
   "engines": {
     "node": ">=4"
