@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0: 2019-04-26
+
+- Remove svgo-sync dependency
+
 ## v0.4.0: 2016-12-20
 
 - Updated Boilerplate
