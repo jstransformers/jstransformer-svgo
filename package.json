@@ -18,7 +18,6 @@
     "xo": "^0.24.0"
   },
   "scripts": {
-    "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
     "posttest": "xo --node-version=\">=4\" --space=2 --prettier index.js"
   },
