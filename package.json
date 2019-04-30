@@ -10,9 +10,8 @@
     "index.js"
   ],
   "dependencies": {
-    "deasync": "^0.1.14",
     "extend-shallow": "^3.0.2",
-    "svgo": "^1.2.2"
+    "svgo": "1.2.2"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.3",
