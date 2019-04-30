@@ -1,8 +1,14 @@
 # Changelog
 
+## v1.2.0: 2019-04-30
+
+- Use lower level internal API to achieve synchronous results
+  - By [@ForbesLindesay](https://github.com/ForbesLindesay)
+
 ## v1.1.0: 2019-04-26
 
 - Remove svgo-sync dependency
+  - By [@homerjam](https://github.com/homerjam)
 
 ## v0.4.0: 2016-12-20
 

@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-svgo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "SVGO support for JSTransformers.",
   "keywords": [
     "jstransformer",
